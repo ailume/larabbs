@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="84eb42b2-3999-4e10-b03f-43bd753c931e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Handlers/ImageUploadHandler.php" afterPath="$PROJECT_DIR$/app/Handlers/ImageUploadHandler.php" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,10 +21,32 @@
       <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="651">
+              <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserPolicy.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Policies/UserPolicy.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthServiceProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#33#69#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -201,6 +221,8 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" />
         <option value="$PROJECT_DIR$/app/Handlers/ImageUploadHandler.php" />
+        <option value="$PROJECT_DIR$/app/Policies/UserPolicy.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
       </list>
     </option>
@@ -341,7 +363,13 @@
             <path>
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="larabbs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Policies" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
@@ -376,7 +404,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="UsersController&#9;FILE&#9;file:///Users/lumi/Code/larabbs/app/Http/Controllers/UsersController.php&#10;image.php&#9;FILE&#9;file:///Users/lumi/Code/larabbs/config/image.php&#10;UserRequest&#9;FILE&#9;file:///Users/lumi/Code/larabbs/app/Http/Requests/UserRequest.php&#10;_header.blade.php&#9;FILE&#9;file:///Users/lumi/Code/larabbs/resources/views/layouts/_header.blade.php&#10;show.blade.php&#9;FILE&#9;file:///Users/lumi/Code/larabbs/resources/views/users/show.blade.php&#10;ImageUploadHandler&#9;null&#9;null&#10;edit.blade.php&#9;FILE&#9;file:///Users/lumi/Code/larabbs/resources/views/users/edit.blade.php&#10;_he&#9;FILE&#9;file:///Users/lumi/Code/larabbs/resources/views/layouts/_header.blade.php&#10;ResetPasswordController&#9;FILE&#9;file:///Users/lumi/Code/larabbs/app/Http/Controllers/Auth/ResetPasswordController.php&#10;EmailVerified&#9;null&#9;null&#10;EventServiceProvider&#9;FILE&#9;file:///Users/lumi/Code/larabbs/app/Providers/EventServiceProvider.php&#10;VerificationController&#9;FILE&#9;file:///Users/lumi/Code/larabbs/app/Http/Controllers/Auth/VerificationController.php&#10;Page&#9;FILE&#9;file:///Users/lumi/Code/larabbs/app/Http/Controllers/PagesController.php&#10;App\User&#9;null&#9;null&#10;Router.php&#9;FILE&#9;file:///Users/lumi/Code/larabbs/vendor/laravel/framework/src/Illuminate/Routing/Router.php" />
+    <property name="SearchEverywhereHistoryKey" value="AuthServiceProvider&#9;null&#9;null&#10;UsersController&#9;FILE&#9;file:///Users/lumi/Code/larabbs/app/Http/Controllers/UsersController.php&#10;image.php&#9;FILE&#9;file:///Users/lumi/Code/larabbs/config/image.php&#10;UserRequest&#9;FILE&#9;file:///Users/lumi/Code/larabbs/app/Http/Requests/UserRequest.php&#10;_header.blade.php&#9;FILE&#9;file:///Users/lumi/Code/larabbs/resources/views/layouts/_header.blade.php&#10;show.blade.php&#9;FILE&#9;file:///Users/lumi/Code/larabbs/resources/views/users/show.blade.php&#10;ImageUploadHandler&#9;null&#9;null&#10;edit.blade.php&#9;FILE&#9;file:///Users/lumi/Code/larabbs/resources/views/users/edit.blade.php&#10;_he&#9;FILE&#9;file:///Users/lumi/Code/larabbs/resources/views/layouts/_header.blade.php&#10;ResetPasswordController&#9;FILE&#9;file:///Users/lumi/Code/larabbs/app/Http/Controllers/Auth/ResetPasswordController.php&#10;EmailVerified&#9;null&#9;null&#10;EventServiceProvider&#9;FILE&#9;file:///Users/lumi/Code/larabbs/app/Providers/EventServiceProvider.php&#10;VerificationController&#9;FILE&#9;file:///Users/lumi/Code/larabbs/app/Http/Controllers/Auth/VerificationController.php&#10;Page&#9;FILE&#9;file:///Users/lumi/Code/larabbs/app/Http/Controllers/PagesController.php&#10;App\User&#9;null&#9;null&#10;Router.php&#9;FILE&#9;file:///Users/lumi/Code/larabbs/vendor/laravel/framework/src/Illuminate/Routing/Router.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -405,12 +433,12 @@
       <updated>1567894020593</updated>
       <workItem from="1567894021746" duration="1491000" />
       <workItem from="1567986886046" duration="12098000" />
-      <workItem from="1568209056589" duration="2705000" />
+      <workItem from="1568209056589" duration="3035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16294000" />
+    <option name="totallyTimeSpent" value="16624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="23" width="1387" height="877" extended-state="0" />
@@ -449,32 +477,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/_header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <marker date="1568210382946" expanded="true" signature="179:189" ph="..." />
-            <marker date="1568210382946" expanded="true" signature="916:932" ph="..." />
-            <marker date="1568210382946" expanded="true" signature="1017:1036" ph="..." />
-            <marker date="1568210382946" expanded="true" signature="1335:1357" ph="..." />
-            <marker date="1568210382946" expanded="true" signature="1453:1473" ph="..." />
-            <marker date="1568210382946" expanded="true" signature="1651:1684" ph="..." />
-            <marker date="1568210382946" expanded="true" signature="1758:1791" ph="..." />
-            <marker date="1568210382946" expanded="true" signature="1992:2009" ph="..." />
-            <marker date="1568210382946" expanded="true" signature="2066:2080" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Listeners/EmailVerified.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -863,10 +865,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Policies/UserPolicy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#33#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="651">
+          <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
